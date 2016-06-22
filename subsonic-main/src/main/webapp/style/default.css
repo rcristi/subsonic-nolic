@@ -1,0 +1,26 @@
+/*
+ * CSS styleshet for default theme.
+ *
+ * Author: Sindre Mehus
+ */
+
+@import "base.css";
+
+/* The primary background color (white). */
+.bgcolor1, table.music tr:nth-of-type(even) {
+    background-color: white;
+}
+
+/* The secondary background color (light gray). */
+.bgcolor2, .ruleTableHeader, .log, table.music tr:nth-of-type(odd) {
+    background-color: #F5F5F5;
+}
+
+.topframe {
+    background-color: #E65100;
+    color: white;
+}
+
+.topframe .icon {
+    color: white;
+}
